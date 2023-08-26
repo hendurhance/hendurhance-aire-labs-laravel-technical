@@ -15,6 +15,10 @@ Note: If the script does not work give it executable permissions and try again.
 chmod +x scripts/start.sh
 ```
 3. Open the project in your browser using the URL provided on the command line. The default URL is `http://localhost:8000`.
+4. Run the tests using the following command:
+```bash
+vendor/bin/phpunit
+```
 
 ## Screenshots
 ### Desktop
