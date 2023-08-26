@@ -6,7 +6,12 @@ This is [@hendurhance](https://github.com/hendurhance) solution to the Aire Labs
 ```bash
 git clone https://github.com/hendurhance/hendurhance-aire-labs-laravel-technical.git
 ```
-2. Install Composer, Add Environment Variables, and Generate an Application Key using start.sh
+2. Go to the project directory
+```bash
+cd hendurhance-aire-labs-laravel-technical
+```
+Note: If your directory is named differently, replace `hendurhance-aire-labs-laravel-technical` with the name of your directory.
+3. Install Composer, Add Environment Variables, and Generate an Application Key using start.sh
 ```bash
 scripts/start.sh
 ```
@@ -14,8 +19,8 @@ Note: If the script does not work give it executable permissions and try again.
 ```bash
 chmod +x scripts/start.sh
 ```
-3. Open the project in your browser using the URL provided on the command line. The default URL is `http://localhost:8000`.
-4. Run the tests using the following command:
+4. Open the project in your browser using the URL provided on the command line. The default URL is `http://localhost:8000`.
+5. Run the tests using the following command:
 ```bash
 vendor/bin/phpunit
 ```
