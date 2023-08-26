@@ -42,7 +42,17 @@ blockquote {
 
 
 @media only screen and (max-width: 500px) {
-    .grid{
+    .grid {
         grid-template-columns: 1fr !important;
+    }
+
+    .blob-right {
+        top: -5rem;
+        right: -15rem;
+    }
+
+    .blob-left {
+        bottom: -5rem;
+        left: -15rem;
     }
 }
