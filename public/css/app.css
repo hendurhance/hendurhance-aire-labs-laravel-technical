@@ -1,0 +1,48 @@
+section {
+    font-family: 'Figtree', sans-serif;
+    background-color: #FFF1E8;
+}
+
+.blob-right {
+    position: absolute;
+    top: -10rem;
+    right: -25rem;
+    z-index: -1;
+}
+
+.blob-left {
+    position: absolute;
+    bottom: -10rem;
+    left: -25rem;
+    z-index: -1;
+}
+
+blockquote {
+    word-break: break-word;
+}
+
+.grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.item {
+    flex-direction: column;
+    row-gap: 1.25rem;
+    justify-content: flex-start;
+    padding: 2rem;
+    border: .125rem solid #000;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .grid{
+        grid-template-columns: 1fr !important;
+    }
+}
